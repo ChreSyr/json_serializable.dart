@@ -31,7 +31,10 @@ dependencies:
 
 dependency_overrides:
   json_annotation:
-    path: ../json_annotation
+    git:
+      url: https://github.com/ChreSyr/json_serializable.dart.git
+      path: json_annotation
+      ref: create_json_keys
 
 dev_dependencies:
   _json_serial_shared_test:
